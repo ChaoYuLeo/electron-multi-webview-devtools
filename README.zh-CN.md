@@ -61,21 +61,9 @@
 └── package.json
 ```
 
-## 截图占位
+## 界面截图
 
-正式公开前，建议在这里补一张真实应用截图或录屏动图。
-
-建议资源路径：
-
-```text
-docs/images/screenshot-main.png
-```
-
-补充截图后的推荐写法：
-
-```md
-![主界面截图](./docs/images/screenshot-main.png)
-```
+![主界面截图](./docs/images/screenshot-main.svg)
 
 ## 快速开始
 
@@ -160,7 +148,6 @@ npm run typecheck
 
 ## 开源发布建议
 
-- 用真实产品截图替换当前截图占位
 - 等到后续接入 CI、打包或发布流程后，再补对应徽章，避免 README 信息失真
 
 ## 参与贡献

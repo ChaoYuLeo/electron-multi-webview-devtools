@@ -63,19 +63,7 @@ Instead of positioning itself as a finished end-user debugging product, this rep
 
 ## Screenshot
 
-Add a real application screenshot or animated demo here before publishing publicly.
-
-Suggested asset path:
-
-```text
-docs/images/screenshot-main.png
-```
-
-Suggested markdown after adding the asset:
-
-```md
-![Main window screenshot](./docs/images/screenshot-main.png)
-```
+![Main window screenshot](./docs/images/screenshot-main.svg)
 
 ## Quick Start
 
@@ -158,7 +146,6 @@ npm run typecheck
 
 ## Open Source Notes
 
-- Replace the screenshot placeholder with a real product image
 - If you add CI or packaging later, then add corresponding badges instead of placeholder-free badges
 
 ## Contributing

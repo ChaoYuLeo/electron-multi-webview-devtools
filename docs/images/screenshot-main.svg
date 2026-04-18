@@ -1,0 +1,262 @@
+<svg width="1280" height="792" viewBox="0 0 1280 792" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="84" y1="40" x2="1214" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1523"/>
+      <stop offset="0.5" stop-color="#0A1220"/>
+      <stop offset="1" stop-color="#07101A"/>
+    </linearGradient>
+    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(184 90) rotate(37) scale(380 220)">
+      <stop stop-color="#22C55E" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#22C55E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1048 84) rotate(149) scale(340 200)">
+      <stop stop-color="#38BDF8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="178" y1="108" x2="1116" y2="740" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1726" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#09111C" stop-opacity="0.96"/>
+    </linearGradient>
+    <linearGradient id="phoneBody" x1="96" y1="132" x2="520" y2="708" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#131B24"/>
+      <stop offset="1" stop-color="#040912"/>
+    </linearGradient>
+    <linearGradient id="card" x1="114" y1="158" x2="508" y2="648" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#152433"/>
+      <stop offset="1" stop-color="#0A1320"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1280" height="792" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="22"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0117647 0 0 0 0 0.0392157 0 0 0 0 0.0784314 0 0 0 0.42 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="792" rx="18" fill="#F5F3EF"/>
+  <rect x="1" y="1" width="1278" height="790" rx="17" stroke="#D1CBC3" stroke-opacity="0.6"/>
+  <circle cx="22" cy="18" r="5" fill="#FC615D"/>
+  <circle cx="40" cy="18" r="5" fill="#FDBD41"/>
+  <circle cx="58" cy="18" r="5" fill="#34C749"/>
+  <text x="640" y="23" text-anchor="middle" fill="#6D6A66" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">
+    Electron Multi WebView DevTools
+  </text>
+
+  <g filter="url(#shadow)">
+    <rect x="0" y="34" width="1280" height="758" fill="url(#bg)"/>
+    <rect x="0" y="34" width="1280" height="758" fill="url(#glowLeft)"/>
+    <rect x="0" y="34" width="1280" height="758" fill="url(#glowRight)"/>
+  </g>
+
+  <rect x="18" y="52" width="250" height="52" rx="18" fill="#0E1928" stroke="#223247"/>
+  <circle cx="34" cy="78" r="5" fill="url(#accent)"/>
+  <text x="50" y="74" fill="#EAF1FB" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">
+    WebView Stack
+  </text>
+  <text x="50" y="92" fill="#8192AA" font-family="Arial, Helvetica, sans-serif" font-size="12">
+    Electron + React 19 + embedded DevTools
+  </text>
+
+  <rect x="282" y="58" width="138" height="40" rx="14" fill="#122436" stroke="#3C6A90"/>
+  <text x="296" y="83" fill="#F5FAFF" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">
+    Example Domain
+  </text>
+  <text x="402" y="83" fill="#A6B4C8" font-family="Arial, Helvetica, sans-serif" font-size="18">
+    ×
+  </text>
+  <rect x="428" y="58" width="40" height="40" rx="14" fill="#09131F" stroke="#223247"/>
+  <text x="448" y="84" text-anchor="middle" fill="#D6E1EE" font-family="Arial, Helvetica, sans-serif" font-size="20">
+    +
+  </text>
+
+  <rect x="18" y="112" width="584" height="660" rx="26" fill="url(#panel)" stroke="#1A2A3F"/>
+  <rect x="616" y="112" width="646" height="154" rx="26" fill="#0F1724" stroke="#1A2A3F"/>
+  <rect x="616" y="282" width="646" height="490" rx="26" fill="#0F1724" stroke="#1A2A3F"/>
+
+  <rect x="52" y="136" width="514" height="612" rx="42" fill="#101925" stroke="#182434"/>
+  <rect x="83" y="151" width="452" height="548" rx="46" fill="url(#phoneBody)"/>
+  <rect x="245" y="151" width="120" height="22" rx="0" fill="#030811"/>
+  <rect x="245" y="151" width="120" height="28" rx="14" fill="#030811"/>
+
+  <rect x="57" y="181" width="458" height="564" rx="32" fill="#080E17"/>
+  <rect x="57" y="181" width="458" height="564" rx="32" fill="url(#card)"/>
+  <rect x="57" y="181" width="458" height="564" rx="32" stroke="#1A2635"/>
+
+  <rect x="60" y="180" width="458" height="564" rx="30" fill="#060B13"/>
+  <rect x="60" y="180" width="458" height="564" rx="30" stroke="#1A2635"/>
+
+  <rect x="59" y="181" width="458" height="564" rx="30" fill="#070C15"/>
+  <rect x="59" y="181" width="458" height="564" rx="30" stroke="#111B28"/>
+
+  <rect x="59" y="181" width="458" height="564" rx="30" fill="#060B13"/>
+  <rect x="59" y="181" width="458" height="564" rx="30" stroke="#0E1723"/>
+
+  <rect x="58" y="181" width="458" height="564" rx="30" fill="#0A1018"/>
+  <rect x="58" y="181" width="458" height="564" rx="30" stroke="#111B28"/>
+
+  <rect x="58" y="181" width="458" height="564" rx="30" fill="#091018"/>
+  <rect x="58" y="181" width="458" height="564" rx="30" stroke="#0E1621"/>
+
+  <rect x="58" y="181" width="458" height="564" rx="30" fill="#0A111A"/>
+
+  <rect x="59" y="182" width="458" height="564" rx="30" fill="#09111A"/>
+
+  <rect x="59" y="182" width="458" height="564" rx="30" fill="#090F17"/>
+  <rect x="59" y="182" width="458" height="564" rx="30" stroke="#0D1520"/>
+
+  <rect x="59" y="182" width="458" height="564" rx="30" fill="#0A1017"/>
+
+  <rect x="59" y="182" width="458" height="564" rx="30" fill="#091018"/>
+  <rect x="95" y="230" width="392" height="524" rx="2" fill="#F2F2F2"/>
+  <text x="164" y="334" fill="#2F343C" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">
+    Example Domain
+  </text>
+  <text x="164" y="364" fill="#51565C" font-family="Arial, Helvetica, sans-serif" font-size="16">
+    This domain is for use in documentation examples
+  </text>
+  <text x="164" y="385" fill="#51565C" font-family="Arial, Helvetica, sans-serif" font-size="16">
+    without needing permission. Avoid use in
+  </text>
+  <text x="164" y="406" fill="#51565C" font-family="Arial, Helvetica, sans-serif" font-size="16">
+    operations.
+  </text>
+  <text x="164" y="444" fill="#6676B2" font-family="Arial, Helvetica, sans-serif" font-size="16">
+    Learn more
+  </text>
+  <rect x="259" y="697" width="104" height="6" rx="3" fill="#8C97AB"/>
+
+  <rect x="630" y="126" width="535" height="40" rx="12" fill="#070D15" stroke="#172535"/>
+  <text x="646" y="152" fill="#EAF2FC" font-family="Arial, Helvetica, sans-serif" font-size="14">
+    https://example.com/
+  </text>
+  <rect x="1174" y="126" width="72" height="40" rx="14" fill="#233247"/>
+  <text x="1210" y="151" text-anchor="middle" fill="#F5FAFF" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">
+    Load
+  </text>
+
+  <g fill="#202C3C">
+    <rect x="632" y="182" width="46" height="34" rx="12"/>
+    <rect x="686" y="182" width="46" height="34" rx="12"/>
+    <rect x="740" y="182" width="46" height="34" rx="12"/>
+    <rect x="794" y="182" width="46" height="34" rx="12"/>
+    <rect x="848" y="182" width="78" height="34" rx="12"/>
+  </g>
+  <g fill="#C7D3E2" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">
+    <text x="655" y="204" text-anchor="middle">Back</text>
+    <text x="709" y="204" text-anchor="middle">Next</text>
+    <text x="763" y="204" text-anchor="middle">Reload</text>
+    <text x="817" y="204" text-anchor="middle">New</text>
+    <text x="887" y="204" text-anchor="middle">Inspect</text>
+  </g>
+  <rect x="632" y="228" width="111" height="30" rx="15" fill="#284434"/>
+  <text x="688" y="247" text-anchor="middle" fill="#E7F9ED" font-family="Arial, Helvetica, sans-serif" font-size="12">
+    Touch Emulation
+  </text>
+  <text x="756" y="247" fill="#94A3B7" font-family="Arial, Helvetica, sans-serif" font-size="14">
+    https://example.com/
+  </text>
+
+  <text x="634" y="316" fill="#F1F6FD" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">
+    DevTools
+  </text>
+  <text x="1226" y="316" text-anchor="end" fill="#A6B4C8" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">
+    Example Domain
+  </text>
+
+  <rect x="632" y="332" width="614" height="420" rx="14" fill="#FFFFFF"/>
+  <rect x="632" y="332" width="614" height="420" rx="14" stroke="#BFC6D3"/>
+  <rect x="632" y="332" width="614" height="32" rx="14" fill="#F3F5F8"/>
+  <rect x="632" y="350" width="614" height="402" rx="0" fill="#FFFFFF"/>
+  <line x1="1000" y1="364" x2="1000" y2="752" stroke="#D4DAE3"/>
+  <line x1="632" y1="388" x2="1246" y2="388" stroke="#D4DAE3"/>
+  <line x1="710" y1="388" x2="710" y2="752" stroke="#D4DAE3"/>
+
+  <g fill="#667281" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700">
+    <text x="668" y="381">Elements</text>
+    <text x="731" y="381">Console</text>
+    <text x="790" y="381">Sources</text>
+    <text x="848" y="381">Network</text>
+    <text x="912" y="381">Performance</text>
+    <text x="998" y="381">Memory</text>
+    <text x="1061" y="381">Application</text>
+    <text x="1137" y="381">Security</text>
+  </g>
+  <text x="647" y="411" fill="#C66A4F" font-family="Courier New, monospace" font-size="12">
+    &lt;!DOCTYPE html&gt;
+  </text>
+  <text x="647" y="430" fill="#A55CCB" font-family="Courier New, monospace" font-size="12">
+    &lt;html lang="en"&gt;
+  </text>
+  <text x="662" y="449" fill="#5A9AF2" font-family="Courier New, monospace" font-size="12">
+    &lt;head&gt;...&lt;/head&gt;
+  </text>
+  <rect x="640" y="456" width="345" height="18" fill="#D8E8FF"/>
+  <text x="647" y="469" fill="#A55CCB" font-family="Courier New, monospace" font-size="12">
+    &lt;body&gt;
+  </text>
+  <text x="662" y="488" fill="#5A9AF2" font-family="Courier New, monospace" font-size="12">
+    &lt;div&gt;&lt;/div&gt;
+  </text>
+  <text x="647" y="507" fill="#A55CCB" font-family="Courier New, monospace" font-size="12">
+    &lt;/body&gt;
+  </text>
+  <text x="647" y="526" fill="#A55CCB" font-family="Courier New, monospace" font-size="12">
+    &lt;/html&gt;
+  </text>
+
+  <text x="1013" y="411" fill="#667281" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700">
+    Styles
+  </text>
+  <rect x="1010" y="420" width="214" height="14" rx="7" fill="#EFF2F6"/>
+  <text x="1020" y="441" fill="#7E8794" font-family="Arial, Helvetica, sans-serif" font-size="10">
+    Filter
+  </text>
+  <text x="1013" y="465" fill="#7E8794" font-family="Courier New, monospace" font-size="11">
+    body {
+  </text>
+  <text x="1027" y="483" fill="#C85E5E" font-family="Courier New, monospace" font-size="11">
+    background:
+  </text>
+  <text x="1112" y="483" fill="#111827" font-family="Courier New, monospace" font-size="11">
+    #eee;
+  </text>
+  <text x="1027" y="501" fill="#C85E5E" font-family="Courier New, monospace" font-size="11">
+    width:
+  </text>
+  <text x="1083" y="501" fill="#111827" font-family="Courier New, monospace" font-size="11">
+    60vw;
+  </text>
+  <text x="1027" y="519" fill="#C85E5E" font-family="Courier New, monospace" font-size="11">
+    margin:
+  </text>
+  <text x="1086" y="519" fill="#111827" font-family="Courier New, monospace" font-size="11">
+    15vh auto;
+  </text>
+  <text x="1027" y="537" fill="#C85E5E" font-family="Courier New, monospace" font-size="11">
+    font-family:
+  </text>
+  <text x="1113" y="537" fill="#111827" font-family="Courier New, monospace" font-size="11">
+    system-ui;
+  </text>
+  <text x="1013" y="555" fill="#7E8794" font-family="Courier New, monospace" font-size="11">
+    }
+  </text>
+  <g stroke="#E6EAF0">
+    <line x1="1010" y1="574" x2="1232" y2="574"/>
+    <line x1="1010" y1="596" x2="1232" y2="596"/>
+    <line x1="1010" y1="618" x2="1232" y2="618"/>
+    <line x1="1010" y1="640" x2="1232" y2="640"/>
+    <line x1="1010" y1="662" x2="1232" y2="662"/>
+    <line x1="1010" y1="684" x2="1232" y2="684"/>
+    <line x1="1010" y1="706" x2="1232" y2="706"/>
+    <line x1="1010" y1="728" x2="1232" y2="728"/>
+  </g>
+</svg>
