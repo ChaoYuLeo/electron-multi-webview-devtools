@@ -61,6 +61,9 @@
 └── package.json
 ```
 
+架构文档：
+- [主进程架构说明](./docs/main-process-architecture.zh-CN.md)
+
 ## 界面截图
 
 ![主界面截图](./docs/images/screenshot-main.svg)

@@ -61,6 +61,9 @@ Instead of positioning itself as a finished end-user debugging product, this rep
 └── package.json
 ```
 
+Architecture notes:
+- [Main process architecture](./docs/main-process-architecture.md)
+
 ## Screenshot
 
 ![Main window screenshot](./docs/images/screenshot-main.svg)
